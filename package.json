@@ -10,7 +10,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "relay-compiler": "^5.0.0",
-    "relay-compiler-webpack-plugin": "^5.0.1"
+    "relay-compiler": "^6.0.0",
+    "relay-compiler-webpack-plugin": "^6.1.0"
   }
 }
