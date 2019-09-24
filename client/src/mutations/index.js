@@ -1,0 +1,1 @@
+export { setUserTerms } from './SetUserTerms'

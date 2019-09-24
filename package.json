@@ -1,0 +1,16 @@
+{
+  "name": "relay-trim-right-error",
+  "version": "1.0.0",
+  "description": "Testing relay-compiler trim-right breakage",
+  "main": "index.js",
+  "scripts": {
+    "relay": "relay-compiler --src client/src --schema ./schema.graphql",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "relay-compiler": "^5.0.0",
+    "relay-compiler-webpack-plugin": "^5.0.1"
+  }
+}

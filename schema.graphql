@@ -1,0 +1,17 @@
+type Hack {
+  # https://github.com/facebook/relay/issues/1880#issuecomment-307705428
+  id: ID
+}
+
+type Query {
+  userTermsChecked: Boolean!
+}
+
+type Mutation {
+  setUserTermsChecked: Boolean!
+}
+
+schema {
+  query: Query
+  mutation: Mutation
+}
